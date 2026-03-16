@@ -1,3 +1,7 @@
+import json
+import os
+
+FILE_NAME = "tasks.json"
 def load_tasks():
     if os.path.exists(FILE_NAME):
         with open(FILE_NAME, "r") as file:
